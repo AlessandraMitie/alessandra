@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    width: 100vw;
+    /* 
+    width: 100vw;       viewportwidth= signfica que tem 100% da largura da página
+    */
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*alinha na horizontal */
+    align-items: center; /*alinha na vertical*/
+    /*define o jutstify e o align porque definiu o display flex */
+    background-color: aquamarine;
+}
+
+#botao{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    color: royalblue;
+    border: none;
+}
